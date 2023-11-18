@@ -1,23 +1,140 @@
-* {
-  box-sizing: border-box;
+:root {
+  --standart-color: rgb(55, 12, 111, 1);
 }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: Arial, sans-serif;
+}
+/* ////////// NavBar /////////////// */
+.nav-size{
+  width: 100%;
+  background-color: #1e1e1e;
+}
+.navbar {
+  background-image:url(../images/logo.png) ;
+  background-repeat: no-repeat;
+  background-position: left;
+  padding: 15px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.navbar a {
+  width: 100px;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  margin: 15px;
+  border-bottom: 5px solid var(--standart-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar a:hover {
+  background-color: var(--standart-color);
+  color: rgb(255, 255, 255);
+}
+
+/* /////////// About Me ////////// */
+
+.about-me-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  background-color:  rgb(188, 234, 247);
+  opacity: 0.8;
+  color: rgb(0, 0, 0);
+}
+
+.about-me-text {
+  max-width: 700px;
+  text-align: left;
+}
+
+.profile-image {
+  border-radius: 30%;
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  margin-left: 20px;
+}
+.about-me-text h2{
+  font-size: 60px;
+}
+.about-me-text h3{
+  font-size: 35px;
+}
+.about-me-text p {
+  font-size: 20px;
   line-height: 1.5;
 }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
+.k-txt{
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
 }
 
-p {
-  margin: 0;
+/*/////////////  Work /////////////// */
+.container-work{
+  background-color: #e89b0aff;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+  gap: 100px;
+  grid-template-rows: 1fr;
+  grid-template-columns: 60% 30%;
 }
+
+.work-section {
+  display: grid;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 30% 30% 30%;
+  gap: 30px;
+}
+
+.work-grid {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+  cursor: pointer;
+  display: grid;
+}
+
+.works-img{
+  width: 100%;
+  border: 3px solid rgb(16, 146, 233) ;
+  border-radius: 30px;
+  box-shadow: 5px 5px black;
+}
+
+.work-text {
+  max-width: 90%;
+  text-align: center;
+}
+
+.work-text h2 {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 100px;
+  margin-bottom: 20px;
+}
+
+.work-text p {
+  font-size: 30px;
+  line-height: 1;
+}
+.work-icon{
+  width: 20px;
+}
+ /* //////////////////  //////////////// */
