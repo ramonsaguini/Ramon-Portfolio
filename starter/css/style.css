@@ -131,7 +131,7 @@ body {
   text-align: center;
 }
 
-.work-text h2 {
+.work-text h4 {
   font-family: 'Architects Daughter', cursive;
   font-size: 100px;
   margin-bottom: 20px;
@@ -141,7 +141,21 @@ body {
   font-size: 30px;
   line-height: 1;
 }
+
 .work-icon{
   width: 20px;
 }
  /* ////////////////// Contact  //////////////// */
+.container-contact{
+  background-color: aqua;
+  width: 500px;
+  border-radius: 150px;
+  border: 2px solid salmon;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.container-contact img{
+  width: 50px;
+}
