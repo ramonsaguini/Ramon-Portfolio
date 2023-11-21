@@ -21,7 +21,7 @@ body {
   height: 100px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: end;
 }
 
 
@@ -34,7 +34,7 @@ body {
   border-bottom: 5px solid var(--standart-color);
   display: flex;
   justify-content: center;
-  align-items: center;
+
 }
 
 .navbar a:hover {
@@ -118,7 +118,6 @@ body {
 .work-grid:hover{
   transform: scale(1.20,1.20);
   opacity: 1.2;
-
 }
 
 .works-img{
@@ -185,5 +184,18 @@ body {
   margin: 0;
 }
 .contact p {
-  font-size: 35px;
+  font-size: 30px;
 }
+
+@media screen and (max-width: 1049px) {
+  .nav-size{
+  background-image:none;
+  padding: 15px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+  }
+
