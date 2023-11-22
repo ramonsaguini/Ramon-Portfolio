@@ -1,12 +1,13 @@
 :root {
   --standart-color: rgb(55, 12, 111, 1);
-  --font:'Architects Daughter', cursive;
+  --font: Arial, sans-serif; ;
 }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
+  background-color: aliceblue;
+  
 }
 /* ////////// NavBar section /////////////// */
 .nav-size{
@@ -49,7 +50,7 @@ body {
   align-items: center;
   justify-content: space-around;
   padding: 20px;
-  background-color:  rgb(188, 234, 247);
+  background-color:  rgb(187, 210, 217);
   opacity: 0.8;
   color: rgb(0, 0, 0);
 }
@@ -85,63 +86,80 @@ body {
 
 /*/////////////  Work Section /////////////// */
 .container-work{
-  background-color: #e89b0aff;
+  height: 1400px;
+  width: 1800px;
   display: grid;
-  align-items: center;
-  justify-content: center;
-  height: 700px;
-  grid-template-rows: 1fr;
-  grid-template-columns: 60% 30%;
+  grid-template-rows: 100%;
+  grid-template-columns: 75% 25%;
+  grid-template-areas: "work-grid work-text";
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
-.work-section {
+.work-grid{
+  grid-area: work-grid;
   display: grid;
-  align-items: center;
-  justify-content: space-around;
-  height: 100%;
+  grid-template-columns: 45% 45%;
+  grid-template-rows: 50% 25% 25%;
+  grid-template-areas: "img1 img1" "img2 img3" "img4 img5";
   width: 100%;
-  grid-template-rows: 50% 50%;
-  grid-template-columns: 30% 30% 30%;
-  gap: 30px;
-}
-
-.work-grid {
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: auto;
-  cursor: pointer;
-  display: grid;
-  rotate: 8deg;
-  opacity: 0.5;
-}
-.work-grid:hover{
-  transform: scale(1.20,1.20);
-  opacity: 1.2;
+  height: 100%; 
 }
 
 .works-img{
-  width: 75%;
-  border: 3px solid rgb(16, 146, 233) ;
-  border-radius: 30px;
-  box-shadow: 5px 5px black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  width: 95%;
+  height: 95%;
+  border: 3px solid blue;
+}
+
+.works-img:hover{
+transform: scale(1.03,1.03);
 }
 
 .work-text {
-  max-width: 90%;
-  text-align: center;
+  grid-area: work-text;
+  border-left: 10px solid black;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#img1{
+  grid-area: img1;
+  background-image: url(../images/weather-forecast.png);
+  height: 95%;
+  width: 97.5%; 
+}
+
+#img2{
+  grid-area: img2;
+  background-image: url(../images/site-samanta.png);
+  
+}
+
+#img3{
+  grid-area: img3;
+  background-image: url(../images/calculator.png);
+}
+
+#img4{
+  grid-area: img4;
+  background-image: url(../images/age-chech.png);
+  
+}
+
+#img5{
+  grid-area: img5;
+  background-image: url(../images/time-of-the-day.png);
+
 }
 
 .work-text h4 {
   font-family: var(--font);
   font-size: 150px;
-  margin-bottom: 20px;
-  rotate: 340deg;
-}
 
-.work-text p {
-  font-size: 30px;
-  line-height: 1;
 }
 
 .work-icon{
@@ -155,14 +173,14 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 .container-contact{
-  background-color:rgb(143, 143, 223) ;
+  background-color:rgb(196, 196, 204) ;
   width: 50%;
   padding: 10px;
-  margin: 1px;
+  margin: 100px;
   border-radius: 150px;
-  border: 20px solid rgb(7, 24, 181);
-  
+  border: 20px solid rgb(164, 164, 168);
 }
 
 .container-contact img{
