@@ -112,7 +112,8 @@ body {
   cursor: pointer;
   width: 95%;
   height: 95%;
-  border: 3px solid blue;
+  border: 5px solid rgb(146, 146, 168);
+  border-radius: 10px;
 }
 
 .works-img:hover{
@@ -123,7 +124,7 @@ transform: scale(1.03,1.03);
   grid-area: work-text;
   border-left: 10px solid black;
   align-items: center;
-  margin-top: 50px;
+  
 }
 
 #img1{
@@ -159,7 +160,6 @@ transform: scale(1.03,1.03);
 .work-text h4 {
   font-family: var(--font);
   font-size: 150px;
-
 }
 
 .work-icon{
@@ -179,7 +179,7 @@ transform: scale(1.03,1.03);
   width: 50%;
   padding: 10px;
   margin: 100px;
-  border-radius: 150px;
+  border-radius: 15px;
   border: 20px solid rgb(164, 164, 168);
 }
 
