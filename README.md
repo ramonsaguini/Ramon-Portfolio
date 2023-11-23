@@ -17,7 +17,7 @@ I am Ramon, a developer passionate about creating innovative solutions and solvi
 ## Projects
 
 ### Main Project
-![](./starter/images/portfolio-full.png)
+![](./starter/images/fullscreen.png)
 
 #### NavBar 
 - Contains logo and button that directs to the exact location of the page
@@ -78,14 +78,6 @@ Here are some of the projects highlighted in my portfolio:
     - https://ramonsaguini.github.io/timeOfTheDay/ (repo https://github.com/ramonsaguini/timeOfTheDay )
 
     <img src="./starter/images/time-of-the-day.png" alt="Time of the day app image" width="200" height="200">
-
-6. Clock
-    - Pointer clock App
-    - Technologies used: HTML, CSS, JavaScript and using the api resource.
-    - https://clock-seven-iota.vercel.app/ (repo https://github.com/ramonsaguini/Clock )
-
-    <img src="./starter/images/clock.png" alt="Clock app image" width="200" height="200">
-
 
 
 ## Technologies
