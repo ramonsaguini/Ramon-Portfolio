@@ -17,10 +17,13 @@ I am Ramon, a developer passionate about creating innovative solutions and solvi
 ## Projects
 
 ### Portfolio
-#### Screen above 1050px
+ Live https://ramon-portfolio.vercel.app/
+- Screen above 1050px
+
 ![](./starter/images/fullscreen.png)
 
-#### Screen below 1049pc
+- Screen below 1049pc
+
 ![](./starter/images/fullscreen-responsivo.png)
 
 #### NavBar 
