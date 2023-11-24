@@ -16,8 +16,12 @@ I am Ramon, a developer passionate about creating innovative solutions and solvi
 
 ## Projects
 
-### Main Project
+### Portfolio
+#### Screen above 1050px
 ![](./starter/images/fullscreen.png)
+
+#### Screen below 1049pc
+![](./starter/images/fullscreen-responsivo.png)
 
 #### NavBar 
 - Contains logo and button that directs to the exact location of the page
