@@ -239,6 +239,10 @@ border: 5px var(--standart-color) solid;
     margin: 0 auto;
     padding: 0;
   }
+  #img1{
+    width: 100%;
+
+  }
 
   .work-grid{
     display: flex;
