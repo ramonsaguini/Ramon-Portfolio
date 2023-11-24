@@ -144,40 +144,24 @@ transform: scale(1.03,1.03);
   background-image: url(../images/time-of-the-day.png);
 
 }
-.work1-box{
+
+.mini-box{
   background-color: silver;
   text-align: center;
-  font-size: 130%;
-  font-family: Arial, Helvetica, sans-serif;
-  width: 20%;
-  height: 20%;
+  font-size: 1vw;
   color: rgb(1, 4, 4);
   border-radius: 10px;
-  margin: 10px;
+  margin-bottom: 10px;
   border: 5px var(--standart-color) solid;
-}
-.mini-box{
-background-color: silver;
-text-align: center;
-font-family: Arial, Helvetica, sans-serif;
-width: 30%;
-height: 30%;
-color: rgb(1, 4, 4);
-border-radius: 10px;
-margin: 10px;
-border: 5px var(--standart-color) solid;
-}
-p1{
-  font-style: italic;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 25px;
+  display: flex;
+  flex-direction: column;
 }
 
 .work-text h4 {
   width: 100%;
   margin: 0;
   font-family: var(--font);
-  font-size: 150px;
+  font-size: 10vw;
 }
 
 .work-icon{
@@ -229,6 +213,9 @@ p1{
   }
   .navbar{
     display: flex;
+    width: 20vw;
+    align-items: start;
+    justify-content: center;
   }
 
   .about-me-container{
@@ -257,12 +244,13 @@ p1{
   }
 
   .work-text {
-    font-size: 1px;
+    text-align: center;
     border: none;
     width: 300px;
     height: 100px;
-    margin: auto;
     display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .works-img{
@@ -271,10 +259,10 @@ p1{
     height: 400px;
   }
 
-  .work1-box, .mini-box{
-    width: 60%;
-    height: 60%;
-    font-size: 90%;
+  .mini-box{
+    width: 30%;
+    height: 30%;
+  
   }
   .container-contact{
     border: none;
