@@ -7,7 +7,6 @@ This is the repository that contains the source code and files related to my per
 - [About Me](#about-me)
 - [Projects](#projects)
 - [Technologies](#technologies)
-- [How to Use](#how-to-use)
 - [Contact](#contact)
 
 ## About me
