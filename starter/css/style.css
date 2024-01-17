@@ -117,8 +117,8 @@ transform: scale(1.03,1.03);
 
 #img1{
   grid-area: img1;
-  background-image: url(../images/weather-forecast.png);
-  height: 95%;
+  background-image: url(../images/travel-california.png);
+  height: 98%;
   width: 97.5%; 
 }
 
@@ -135,7 +135,7 @@ transform: scale(1.03,1.03);
 
 #img4{
   grid-area: img4;
-  background-image: url(../images/age-chech.png);
+  background-image: url(../images/quizApp.png);
   
 }
 
